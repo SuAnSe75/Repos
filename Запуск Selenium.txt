@@ -1,0 +1,8 @@
+mkdir environments
+cd environments
+python -m venv selenium_env
+selenium_env\Scripts\activate.bat
+
+#  pip list
+#  pip install selenium==4.*
+#  pip list

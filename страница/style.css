@@ -1,0 +1,75 @@
+
+.header {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:green;
+    min-height: 100px;
+}
+.menu div{
+    color:orangered;
+    margin:auto;
+    text-align: left;
+}
+form {
+    padding-top: 30px;
+}
+
+.footer {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:red;
+    min-height: 100px;
+}
+
+.content {
+    min-height: 540px;
+}
+.c1 {
+    border: 1px solid black;
+}
+.c2 {
+    border: 1px solid black;
+}
+.c3 {
+    border: 1px solid black;
+}
+.c1-child1 {
+    color: darkred;
+}
+.c1-child2 {
+    color:red;
+}
+.c2-child {
+
+}
+#c3-child1{
+
+}
+
+.c2-child>li:nth-child(1) {
+    color: green;
+}
+
+.c2-child>li:nth-child(2) {
+    color:blue;
+}
+
+.c2-child>li:nth-child(3) {
+    color:darkred;
+}
+#c3-child1>li:nth-of-type(1) {
+    color: yellowgreen;
+}
+#c3-child1>li:nth-of-type(2) {
+    color: darkcyan;
+}
+#c3-child1>li:nth-of-type(3) {
+    color: chocolate;
+}
+#img1 {
+    border: 5px solid black;
+}
+input [value="russ"] {
+font-size: 15pt;
+color: red;
+}
