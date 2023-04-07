@@ -16,7 +16,6 @@ try:
     # Отправляем заполненную форму
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     button.click()
-
     # Проверяем, что смогли зарегистрироваться
     # ждем загрузки страницы
     time.sleep(1)
